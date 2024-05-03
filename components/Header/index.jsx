@@ -31,7 +31,7 @@ export default function Header({ variant }) {
           <Div className="container">
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
-                <Link className="cs-site_branding" href="home">
+                <Link className="cs-site_branding" href="/">
                   <img src="/images/logo.svg" alt="Logo" />
                 </Link>
               </Div>
@@ -42,7 +42,7 @@ export default function Header({ variant }) {
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }}
                   >
                     <li>
-                      <Link href="home" onClick={() => setMobileToggle(false)}>
+                      <Link href="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </Link>
                     </li>
