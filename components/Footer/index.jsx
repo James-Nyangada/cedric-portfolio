@@ -20,11 +20,11 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 
   const serviceMenu = [
     {
-      title: 'UI/UX design',
+      title: 'Social Media',
       href: '/service/service-details',
     },
     {
-      title: 'WP development',
+      title: 'Graphics Design',
       href: '/service/service-details',
     },
     {
@@ -32,7 +32,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       href: '/service/service-details',
     },
     {
-      title: 'React development',
+      title: 'Video Editing',
       href: '/service/service-details',
     },
   ];
@@ -45,9 +45,9 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/footer_logo.svg"
+                  logoSrc="/images/footer_logo.png"
                   logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+                  text="Welcome to my portfolio where pixels become powerhouses! Let's turn your digital dreams into a reality!"
                 />
                 <SocialWidget />
               </Div>
@@ -59,14 +59,14 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title="Contact Us" />
+                <ContactInfoWidget title="Contact Me" />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  subtitle="Design. Market. Edit. Dominate."
                   placeholder="example@gmail.com"
                 />
               </Div>

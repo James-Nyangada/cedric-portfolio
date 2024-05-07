@@ -11,34 +11,34 @@ export default function TestimonialSlider() {
     {
       testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '4',
+        'Working with MDM marketers was a game-changer for our business. Their team\'s expertise and dedication led to a significant boost in our online presence. The results speak for themselves increased traffic, higher conversions, and a stronger brand image. We couldn\'t be happier with the outstanding service and results-driven approach. Highly recommend!',
+      avatarName: 'Platinums lounge',
+      avatarDesignation: 'CEO',
+      ratings: '4.5',
     },
     {
       testimonialThumb: '/images/testimonial_2.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Choosing MDM marketers was the best decision we made for our website redesign. Their creativity, attention to detail, and professionalism exceeded our expectations. They not only revamped our site but also improved user experience, resulting in a 30% increase in customer engagement. Their team\'s commitment to excellence is truly remarkable!',
+      avatarName: 'Raiderz ent',
+      avatarDesignation: 'CEO',
       ratings: '5',
     },
     {
       testimonialThumb: '/images/testimonial_3.jpeg',
       testimonialText:
         'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+      avatarName: 'Headlights Hero',
+      avatarDesignation: 'CEO',
       ratings: '4.5',
     },
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/testimonial_4.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '3.5',
+        'Masters digital marketing took our digital marketing to new heights. Their SEO strategies catapulted our website to the top of search engine rankings, driving a surge in organic traffic. The personalized approach, transparent communication, and measurable results have made them our go-to digital marketing partner. Thanks to their expertise, our business is thriving online!',
+      avatarName: 'Jamii tours and travels',
+      avatarDesignation: 'CEO',
+      ratings: '5',
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (

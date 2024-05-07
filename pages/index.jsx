@@ -15,46 +15,46 @@ import Spacing from '../components/Spacing';
 export default function Home() {
   const heroSocialLinks = [
     {
-      name: 'Behance',
-      links: '/',
+      name: 'Instagram',
+      links: 'https://www.instagram.com/c3d.rix._?igsh=bTdsYmJqcnBqZzI3',
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: 'LinkedIn',
+      links: 'https://www.linkedin.com/in/cedric-michael-njogu-48a146296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
   ];
   const portfolioData = [
     {
-      title: 'Winery eCommerce website design & development',
+      title: 'Jamii tours and travels',
       subtitle: 'Project 01',
       btnText: 'See Details',
-      btnLink: '/portfolio/portfolio-details',
+      btnLink: '/projects',
       imageUrl: '/images/portfolio_35.jpeg',
       category: 'Web Development',
     },
     {
-      title: 'Euro corporate agency for healthy environment',
+      title: 'Headlight heros',
       subtitle: 'Project 02',
       btnText: 'See Details',
-      btnLink: '/portfolio/portfolio-details',
+      btnLink: '/projects',
       imageUrl: '/images/portfolio_36.jpeg',
       category: 'Branding',
     },
     {
-      title: 'Powerful admin dashboard design',
+      title: 'The Platinums bar and lounge',
       subtitle: 'Project 03',
       btnText: 'See Details',
-      btnLink: '/portfolio/portfolio-details',
+      btnLink: '/projects',
       imageUrl: '/images/portfolio_37.jpeg',
-      category: 'UI Design',
+      category: 'Content Creation',
     },
     {
-      title: 'Crypto financial trading apps for hedge fund',
+      title: 'Raiderz ent',
       subtitle: 'Project 04',
       btnText: 'See Details',
-      btnLink: '/portfolio/portfolio-details',
+      btnLink: '/projects',
       imageUrl: '/images/portfolio_38.jpeg',
-      category: 'Apps Design',
+      category: 'Web Design & SEO',
     },
   ];
 
@@ -73,7 +73,7 @@ export default function Home() {
           btnText={`Let's talk`}
           socialLinksHeading="Follow me"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="./images/hero_bg_4.jpeg"
+          bgImageUrl="./images/hero_bg.jpeg"
         />
         {/* End Hero Section */}
 

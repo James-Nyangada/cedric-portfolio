@@ -12,20 +12,16 @@ import Spacing from '../components/Spacing';
 export default function About() {
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: 'Happy Clients',
+      factNumber: '10',
     },
     {
       title: 'Project Completed',
-      factNumber: '50K',
+      factNumber: '12',
     },
     {
-      title: 'Team Members',
-      factNumber: '245',
-    },
-    {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Years Experience',
+      factNumber: '3',
     },
   ];
   return (
@@ -69,22 +65,7 @@ export default function About() {
               />
               <Spacing lg="25" md="25" />
             </Div>
-            <Div className="col-lg-7">
-              <img
-                src="/images/about_img_2.jpeg"
-                alt="About"
-                className="w-100 cs-radius_15"
-              />
-              <Spacing lg="25" md="25" />
-            </Div>
-            <Div className="col-lg-5">
-              <img
-                src="/images/about_img_3.jpeg"
-                alt="About"
-                className="w-100 cs-radius_15"
-              />
-              <Spacing lg="25" md="25" />
-            </Div>
+            
           </Div>
         </Div>
         <Spacing lg="75" md="55" />
@@ -123,18 +104,15 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
+                🎨 Creative Design, Social Media, Marketing, Video Editing: I offer a comprehensive suite of services covering graphic design, social media management, digital marketing, and video editing.
                 </p>
                 <Spacing lg="15" md="15" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining.
+                📈 Proven Results: I have a track record of delivering tangible results, helping businesses grow their online presence, increase engagement, and boost their bottom line.
+                </p>
+                <Spacing lg="15" md="15" />
+                <p className="cs-m0">
+                💡 Honesty and Integrity: I prioritize honesty and integrity in all my work. You can trust me to be transparent, honest, and dedicated to your success.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>

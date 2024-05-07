@@ -42,7 +42,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="UI/UX design"
+                      title="Social Media"
                       link="/service/ui-ux-design"
                       src="/images/service_1.jpeg"
                       alt="Service"
@@ -52,7 +52,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="React.js Development"
+                      title="Logo Design"
                       link="/service/reactjs-development"
                       src="/images/service_2.jpeg"
                       alt="Service"
@@ -71,7 +71,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Technology"
+                      title="Video Editing"
                       link="/service/technology"
                       src="/images/service_4.jpeg"
                       alt="Service"
@@ -82,7 +82,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Consultancy"
+                      title="Graphics Design"
                       link="/service/consultancy"
                       src="/images/service_5.jpeg"
                       alt="Service"
@@ -92,7 +92,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Creative Design"
+                      title="Ad Management"
                       link="/service/creative-design"
                       src="/images/service_6.jpeg"
                       alt="Service"
