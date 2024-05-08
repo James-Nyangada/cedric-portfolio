@@ -32,8 +32,8 @@ export default function Service() {
             <Div className="row">
               <Div className="col-xl-4">
                 <SectionHeading
-                  title="Services we can help you with"
-                  subtitle="What Can We Do"
+                  title="Services I can help you with"
+                  subtitle="What Can I Do"
                 />
                 <Spacing lg="90" md="45" />
               </Div>
@@ -42,8 +42,8 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Social Media"
-                      link="/service/ui-ux-design"
+                      title="Social Media Management"
+                      link="/service/smm"
                       src="/images/service_1.jpeg"
                       alt="Service"
                     />
@@ -52,8 +52,8 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Logo Design"
-                      link="/service/reactjs-development"
+                      title="Logo & Graphics Design"
+                      link="/service/logo&graphics"
                       src="/images/service_2.jpeg"
                       alt="Service"
                     />
@@ -62,7 +62,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Digital Marketing"
-                      link="/service/digital-marketing"
+                      link="/service/digitalmarketing"
                       src="/images/service_3.jpeg"
                       alt="Service"
                     />
@@ -72,7 +72,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Video Editing"
-                      link="/service/technology"
+                      link="/service/video-editing"
                       src="/images/service_4.jpeg"
                       alt="Service"
                     />
@@ -82,8 +82,8 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                   <Div className="col-lg-3 col-sm-6">
                     <Card
-                      title="Graphics Design"
-                      link="/service/consultancy"
+                      title="Ad management training"
+                      link="/service/ad-training"
                       src="/images/service_5.jpeg"
                       alt="Service"
                     />
@@ -93,7 +93,7 @@ export default function Service() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Ad Management"
-                      link="/service/creative-design"
+                      link="/service/digitalmarketing"
                       src="/images/service_6.jpeg"
                       alt="Service"
                     />

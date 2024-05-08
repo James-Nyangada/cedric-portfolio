@@ -155,15 +155,32 @@ export default function Home() {
           <Spacing lg="90" md="45" />
         </Div>
         <CaseStudy
-          title="Logo<br />design"
+          title="Social media<br />management"
           bgUrl="/images/case_study_2.jpeg"
-          href="/case-study-details"
+          href="/service/smm"
           variant="cs-style2"
         />
         <CaseStudy
-          title="Poster <br /> design"
+          title="Logo & Graphics<br /> design"
           bgUrl="/images/case_study_1.jpeg"
-          href="/case-study-details"
+          href="/service/logo&graphics"
+        />
+        <CaseStudy
+          title="Ad management &<br />Digital marketing"
+          bgUrl="/images/case_study_2.jpeg"
+          href="/service/digitalmarketing"
+          variant="cs-style2"
+        />
+        <CaseStudy
+          title="Ads managment<br /> training"
+          bgUrl="/images/case_study_1.jpeg"
+          href="/service/ad-training"
+        />
+        <CaseStudy
+          title="Video<br />Editing"
+          bgUrl="/images/case_study_2.jpeg"
+          href="/service/video-editing"
+          variant="cs-style2"
         />
         <Spacing lg="150" md="80" />
         {/* End Case Study Section */}
@@ -174,7 +191,7 @@ export default function Home() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Graphic desinger/Social media marketer/" />
+        <MovingText text="Graphic desinger/Social media marketer/Web Designer/" />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 

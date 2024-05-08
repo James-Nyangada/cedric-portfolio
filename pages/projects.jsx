@@ -38,7 +38,7 @@ export default function Projects() {
               <SectionHeading title="Jamii Tours" subtitle="Creative">
                 <Spacing lg="40" md="20" />
                 <p>
-                  Project that involved modifying their website and doing graphic design and their posters to. 
+                I reached out to jamii tours via a call and convinced them we can work with them in bringing their online presence to life and enable them to rwch more potential clients on the internet market. 
                 </p>
                 <Spacing lg="10" md="10" />
                {/*  <p>
@@ -77,16 +77,16 @@ export default function Projects() {
                 </Div> */}
                 <Div className="col-6">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Dated:
+                   Start Date:
                   </h3>
-                  <p className="cs-m0">14-Aug-2022</p>
+                  <p className="cs-m0">Feb-2023</p>
                   <Spacing lg="30" md="30" />
                 </Div>
                 <Div className="col-6">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Client:
+                    End Date
                   </h3>
-                  <p className="cs-m0">Jamii Tours</p>
+                  <p className="cs-m0">Active Contract</p>
                   <Spacing lg="30" md="30" />
                 </Div>
               </Div>
@@ -94,24 +94,24 @@ export default function Projects() {
           </Div>
           <Spacing lg="65" md="10" />
           <Div className="cs-page_navigation cs-center">
-            <Div>
+            {/* <Div>
               <Button
                 btnLink="/portfolio/portfolio-details"
                 btnText="Prev Project"
                 variant="cs-type1"
               />
-            </Div>
+            </Div> */}
             <Div>
               <Button
-                btnLink="/portfolio/portfolio-details"
+                btnLink="/projects-02"
                 btnText="Next Project"
               />
             </Div>
           </Div>
         </Div>
         <Spacing lg="145" md="80" />
-        <Cta
-          title="agency@arino.com"
+        <Cta onClick={() => window.open('mailto:cedricmicahelnjogu@gmail.com')} style={{ cursor: 'pointer' }}
+          title="cedricmicahelnjogu@gmail.com"
           bgSrc="/images/cta_bg_2.jpeg"
           variant="rounded-0"
         />
