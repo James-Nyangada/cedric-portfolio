@@ -5,6 +5,7 @@ import Div from '../components/Div';
 import Hero3 from '../components/Hero/Hero3';
 import Layout from '../components/Layout';
 import LogoList from '../components/LogoList';
+import FunFact from '../components/FunFact';
 import MovingText from '../components/MovingText';
 import Portfolio2 from '../components/Portfolio/Portfolio2';
 import Portfolio3 from '../components/Portfolio/Portfolio3';
@@ -23,40 +24,22 @@ export default function Home() {
       links: 'https://www.linkedin.com/in/cedric-michael-njogu-48a146296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
   ];
-  const portfolioData = [
+  const funfaceData = [
     {
-      title: 'Jamii tours and travels',
-      subtitle: 'Project 01',
-      btnText: 'See Details',
-      btnLink: '/projects',
-      imageUrl: '/images/portfolio_35.jpeg',
-      category: 'Web Development',
+      title: 'Happy Clients',
+      factNumber: '10',
     },
     {
-      title: 'Headlight heros',
-      subtitle: 'Project 02',
-      btnText: 'See Details',
-      btnLink: '/projects',
-      imageUrl: '/images/portfolio_36.jpeg',
-      category: 'Branding',
+      title: 'Project Completed',
+      factNumber: '12',
     },
     {
-      title: 'The Platinums bar and lounge',
-      subtitle: 'Project 03',
-      btnText: 'See Details',
-      btnLink: '/projects',
-      imageUrl: '/images/portfolio_37.jpeg',
-      category: 'Content Creation',
-    },
-    {
-      title: 'Raiderz ent',
-      subtitle: 'Project 04',
-      btnText: 'See Details',
-      btnLink: '/projects',
-      imageUrl: '/images/portfolio_38.jpeg',
-      category: 'Web Design & SEO',
+      title: 'Years Experience',
+      factNumber: '3',
     },
   ];
+  
+  
 
   return (
     <>
@@ -77,39 +60,50 @@ export default function Home() {
         />
         {/* End Hero Section */}
 
-        {/* Start Portfolio Section */}
-        <Spacing lg="150" md="80" />
-        {portfolioData.map((item, index) =>
-          index % 2 === 0 ? (
-            <Div key={index}>
-              <Portfolio2
-                title={item.title}
-                subtitle={item.subtitle}
-                btnText={item.btnText}
-                btnLink={item.btnLink}
-                imageUrl={item.imageUrl}
-                category={item.category}
-              />
-              <Spacing lg="100" md="70" />
+      {/* Start About Section */}
+      <Spacing lg="150" md="80" />
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-5 col-lg-7">
+              <SectionHeading
+                title="My brief Biography"
+                subtitle="About me"
+              >
+                <Spacing lg="30" md="20" />
+                <p className="cs-m0">
+                  I am a young man who has always been motivated to transend my current circumstances and not let my background define me. My educational journet started at Lily Academy for primary school, followed by Nairobi School. Currently, I am pursuing a degree in civil engineering and CPA studies at Strathmore University. One of my noteworthy accomplishments is maintaining perfect academic record. Recently, I founded "Maters Digital marketing," an agency where I channel my passion for graphic design and other cucial digital maketing skills. In addition to these skills, Ihave developed strong leadership qualities enabling me to navigate challenges effectively and inspie teams towards success.</p>
+                <Spacing lg="30" md="30" />
+                <Div className="cs-separator cs-accent_bg"></Div>
+                <Spacing lg="25" md="40" />
+              </SectionHeading>
             </Div>
-          ) : (
-            <Div key={index}>
-              <Portfolio3
-                title={item.title}
-                subtitle={item.subtitle}
-                btnText={item.btnText}
-                btnLink={item.btnLink}
-                imageUrl={item.imageUrl}
-                category={item.category}
+            <Div className="col-lg-5 offset-xl-2">
+              <img
+                src="/images/about_img_1.jpeg"
+                alt="About"
+                className="w-100 cs-radius_15"
               />
-              <Spacing lg="100" md="70" />
+              <Spacing lg="25" md="25" />
             </Div>
-          ),
-        )}
-        {/* End Portfolio Section */}
+            
+          </Div>
+        </Div>
+        <Spacing lg="75" md="55" />
+        {/* End About Section */}
+
+
+         {/* Start Fun Fact Section */}
+         <Div className="container">
+          <FunFact
+            title="My fun fact"
+            subtitle="I have a diverse skill set of crucial for digital marketing success. My strengths lie in gaphic design,web design and video editing, allowing me to create captivating content. I excel in social media marketing strategies to boost online presence and engagement. With strong leadership abilities, I guide teams to achieve marketing goals effectively"
+            data={funfaceData}
+          />
+        </Div>
+        {/* End Fun Fact Section */}
 
         {/* Start Case Study Section */}
-        <Spacing lg="45" md="10" />
+        <Spacing lg="100" md="10" />
         <Div className="container">
           <SectionHeading
             title="Services"
