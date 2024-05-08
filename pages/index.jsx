@@ -102,12 +102,54 @@ export default function Home() {
         </Div>
         {/* End Fun Fact Section */}
 
+                {/* Start Why Choose Section */}
+                <Spacing lg="100" md="80" />
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-5 col-lg-6">
+              <Div className="cs-image_layer cs-style1">
+                <Div className="cs-image_layer_in">
+                  <img
+                    src="/images/about_img_4.jpeg"
+                    alt="About"
+                    className="w-100 cs-radius_15"
+                  />
+                </Div>
+              </Div>
+              <Spacing lg="0" md="40" />
+            </Div>
+            <Div className="col-xl-5 offset-xl-1 col-lg-6">
+              <SectionHeading
+                title="Highly experienced"
+                subtitle="Why Choose Me"
+              >
+                <Spacing lg="30" md="20" />
+                <p className="cs-m0">
+                🎨 Creative Design, Social Media, Marketing, Video Editing: I offer a comprehensive suite of services covering graphic design, social media management, digital marketing, and video editing.
+                </p>
+                <Spacing lg="15" md="15" />
+                <p className="cs-m0">
+                📈 Proven Results: I have a track record of delivering tangible results, helping businesses grow their online presence, increase engagement, and boost their bottom line.
+                </p>
+                <Spacing lg="15" md="15" />
+                <p className="cs-m0">
+                💡 Honesty and Integrity: I prioritize honesty and integrity in all my work. You can trust me to be transparent, honest, and dedicated to your success.
+                </p>
+                <Spacing lg="30" md="30" />
+                <Div className="cs-separator cs-accent_bg"></Div>
+                <Spacing lg="25" md="0" />
+              </SectionHeading>
+            </Div>
+          </Div>
+        </Div>
+        {/* End Why Choose Section */}
+
         {/* Start Case Study Section */}
         <Spacing lg="100" md="10" />
         <Div className="container">
           <SectionHeading
             title="Services"
-            subtitle="Sample services"
+            subtitle="Services Offered"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
