@@ -104,15 +104,15 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                🎨 Creative Design, Social Media, Marketing, Video Editing: I offer a comprehensive suite of services covering graphic design, social media management, digital marketing, and video editing.
+                I prioritize delivering exceptional quality services to ensure the satisfaction and loyalty of my clients.
                 </p>
                 <Spacing lg="15" md="15" />
                 <p className="cs-m0">
-                📈 Proven Results: I have a track record of delivering tangible results, helping businesses grow their online presence, increase engagement, and boost their bottom line.
+                Rather than constantly seeking new clients, my focus is on nurturing and maintaining strong relationships with the clients I have.
                 </p>
                 <Spacing lg="15" md="15" />
                 <p className="cs-m0">
-                💡 Honesty and Integrity: I prioritize honesty and integrity in all my work. You can trust me to be transparent, honest, and dedicated to your success.
+                By consistently exceeding expectations and providing tailored solutions, I aim to create lasting partnerships founded on trust, reliability, and mutual success.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
