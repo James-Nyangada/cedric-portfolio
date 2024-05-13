@@ -51,7 +51,7 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                  I am a young man who has always been motivated to transend my current circumstances and not let my background define me. My educational journet started at Lily Academy for primary school, followed by Nairobi School. Currently, I am pursuing a degree in civil engineering and CPA studies at Strathmore University. One of my noteworthy accomplishments is maintaining perfect academic record. Recently, I founded "Maters Digital marketing," an agency where I channel my passion for graphic design and other cucial digital maketing skills. In addition to these skills, Ihave developed strong leadership qualities enabling me to navigate challenges effectively and inspie teams towards success.</p>
+                  I am a young man who has always been motivated to transend my current circumstances and not let my background define me. My educational journet started at Lily Academy for primary school, followed by Nairobi School. Currently, I am pursuing a degree in civil engineering and CPA studies at Strathmore University. One of my noteworthy accomplishments is maintaining perfect academic record. Recently, I founded "Maters Digital marketing," an agency where I channel my passion for graphic design and other crucial digital marketing skills. In addition to these skills, I have developed strong leadership qualities enabling me to navigate challenges effectively and inspire teams towards success.</p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
                 <Spacing lg="25" md="40" />
